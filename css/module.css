@@ -1,0 +1,65 @@
+header {
+  background-color: blue;
+}
+section {
+  background-color: green;
+}
+
+main section:first-child {
+  background-color: yellow;
+}
+main section:nth-child(3) {
+  background-color: rgb(123, 55, 126);
+}
+#efgh section:first-child {
+  background-color: pink;
+}
+#efgh section:nth-child(2) {
+  background-color: orange;
+}
+#efgh section:nth-child(3) {
+  background-color: salmon;
+}
+#efgh section:last-child {
+  background-color: red;
+}
+footer {
+  background-color: grey;
+}
+
+@media (min-width: 768px){
+  header {
+    background-color: red;
+  }
+  section {
+    background-color: rgb(123, 55, 126);
+  }
+  
+  main section:first-child {
+    background-color: pink;
+
+  }
+  main section:nth-child(3) {
+    background-color: green;
+
+  }
+  #efgh section:first-child {
+    background-color: grey;
+
+  }
+  #efgh section:nth-child(2) {
+    background-color: salmon;
+  }
+  #efgh section:nth-child(3) {
+    background-color: orange;
+  }
+  #efgh section:last-child {
+    background-color: yellow;
+
+  }
+  footer {
+
+    background-color: blue;
+  }
+  
+}
